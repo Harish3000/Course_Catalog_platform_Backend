@@ -1,6 +1,4 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/MhkFIDKy)
-
-# Project : Learnium - University Management System
+# Project : Learnium - Course Catalog management system for universities.
 
 A web application backend implementation for managing university resources including courses, timetable, room and resource booking, student enrollment, and notifications.
 
@@ -10,16 +8,16 @@ A web application backend implementation for managing university resources inclu
 2. [Setup Instructions](#setup-instructions)
 3. [API Endpoint Documentation](#api-endpoint-documentation)
 4. [Testing](#testing)
-    - [Setup for Testing Environments](#setup-for-testing-environments)
-    - [Unit Tests](#unit-tests)
-    - [Integration Tests](#integration-tests)
+   - [Setup for Testing Environments](#setup-for-testing-environments)
+   - [Unit Tests](#unit-tests)
+   - [Integration Tests](#integration-tests)
 5. [ER Diagram](#er-diagram)
 6. [Schema Diagram](#schema-diagram)
 7. [Non-Functional Requirements](#non-functional-requirements)
-    - [Security](#security)
-    - [Database Design](#database-design)
-    - [Code Quality and Documentation](#code-quality-and-documentation)
-    - [Error Handling and Logging](#error-handling-and-logging)
+   - [Security](#security)
+   - [Database Design](#database-design)
+   - [Code Quality and Documentation](#code-quality-and-documentation)
+   - [Error Handling and Logging](#error-handling-and-logging)
 
 ## Introduction
 
@@ -71,7 +69,6 @@ mvn spring-boot:run
 ```
 
 The application should now be running on `localhost:8080`.
-
 
 ## Running Tests
 
@@ -136,4 +133,3 @@ Replace `localhost:8080` with your application's host and port if they are diffe
 ## Error Handling and Logging
 
 Custom exception handling is implemented to handle errors gracefully, providing meaningful error messages to users. Logging is performed using a custom logger to track system activities and errors.
-
