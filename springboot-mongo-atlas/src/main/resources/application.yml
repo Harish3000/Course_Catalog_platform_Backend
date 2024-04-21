@@ -1,0 +1,5 @@
+spring:
+  data:
+    mongodb:
+      uri : mongodb+srv://admin:admin@springbootproduction.sliox25.mongodb.net/?retryWrites=true&w=majority&appName=SpringbootProduction
+      database : learnium

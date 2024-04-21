@@ -1,0 +1,5 @@
+spring:
+  data:
+    mongodb:
+      uri : mongodb+srv://admin:admin@springboottest.lj4sjx6.mongodb.net/?retryWrites=true&w=majority&appName=SpringBootTest
+      database : learniumTest
